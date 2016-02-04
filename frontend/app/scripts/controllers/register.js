@@ -12,8 +12,9 @@ angular.module('jwtPsApp')
 		$scope.submit = function() {
 			var url = 'http://localhost:3000/register';
 			var user = {
-				name: 'Scott'
-			};
+				email: $scope.email,
+				password: $scope.password
+							};
 			console.log("submitted");
 			$http.post(url, user)
 				.success(function(res) {
