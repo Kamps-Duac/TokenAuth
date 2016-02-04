@@ -10,8 +10,10 @@
 angular.module('jwtPsApp')
 	.controller('RegisterCtrl', function($scope, $rootScope, $http, alert) {
 		$scope.submit = function() {
-			var url = '/';
-			var user = {};
+			var url = 'http://localhost:3000/register';
+			var user = {
+				name: 'Scott'
+			};
 			console.log("submitted");
 			$http.post(url, user)
 				.success(function(res) {

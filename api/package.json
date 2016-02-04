@@ -1,12 +1,13 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Learing stuff! https://app.pluralsight.com/library/courses/creating-apps-angular-node-token-authentication/table-of-contents",
   "main": "api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Scott Kamps",
+  "repository": "https://github.com/Kamps-Duac/TokenAuth",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.14.2",
