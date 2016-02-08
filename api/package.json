@@ -12,6 +12,7 @@
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.14.2",
+    "crypto": "0.0.3",
     "express": "^4.13.4",
     "kerberos": "0.0.18",
     "mongoose": "^4.4.1"
